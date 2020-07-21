@@ -1,0 +1,68 @@
+.guide-section {
+    padding: 12px 0;
+    margin-bottom: 24px;
+    width: 100%;
+    ;
+    border-bottom: 1px solid #eeeff5;
+}
+
+/* Кнопки — Primary*/
+
+.btn-primary-light {
+    color: #fff;
+    background: #2c3979;
+}
+
+.btn-primary-light:hover {
+    background: #505c98;
+}
+
+.btn-primary-light.btn-disabled {
+    background: #2c3979;
+}
+
+/* Кнопки – Secondary */
+
+.btn-secondary-light {
+    background: #eeeff5;
+    color: #2c3979;
+}
+
+.btn-secondary-light:hover {
+    background: #f7f7fa;
+}
+
+.btn-secondary-light.btn-disabled {
+    background: #eeeff5;
+}
+
+/* Кнопки Text */
+
+.btn-l-text-light {
+    padding: 12px 8px;
+    background: transparent;
+    color: #2c3979;
+}
+
+.btn-m-text-light {
+    padding: 8px 4px;
+    background: transparent;
+    color: #2c3979;
+}
+
+.btn-s-text-light {
+    padding: 4px 2px;
+    background: transparent;
+    color: #2c3979;
+}
+
+.btn-l-text-light:hover,
+.btn-m-text-light:hover,
+.btn-s-text-light:hover,
+.btn-text-ic-light:hover {
+    background: #f7f7fa;
+}
+
+.btn-m-text-light.btn-disabled {
+    background: transparent;
+}

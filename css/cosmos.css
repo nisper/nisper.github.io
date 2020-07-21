@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #373745;
+}
+
+/* Обертка для элементов внутри Live Preview */
+
+.zeroheight-wrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.zeroheight-wrapper-line {
+  display: flex;
+}
+
+.zeroheight-wrapper-line > div {
+  margin-right: 16px;
+}
+
+.zeroheight-wrapper > div { /* Отступ у DIV-ов только у ближайших потомков .zeroheight-wrapper */
+  margin-bottom: 16px;
+}
+
+/* Типографика */
+
+.jumbo {
+  font-weight: 900;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: 0.25px;
+}
+
+.h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+}
+
+.h2 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}
+
+.h2.bold {
+  font-weight: 700;
+}
+
+.body-16 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.24px;
+}
+
+.body-14 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+
+.body-12 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.25px;
+}
+
+.body-10 {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.25px;
+}
+
+.body-16.medium,
+.body-14.medium,
+.body-12.medium,
+.body-10.medium {
+  font-weight: 500;
+}
+
+.overline {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+/* Кнопки → Размеры кнопок */
+
+.btn-l {
+  padding: 12px 16px;
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: .25;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-ic-l {
+  padding: 12px;
+  border-radius: 50%;
+}
+
+.btn-m {
+  padding: 8px 12px;
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: .25;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-ic-m {
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.btn-s {
+  padding: 4px 8px;
+  display: flex;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: .25;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-ic-s {
+  padding: 4px;
+  border-radius: 50%;
+}
+
+/* Иконки и картинки внутри компонентов */
+
+.ic-in-btn-l {
+  width: 24px;
+  height: 24px;
+}
+
+.ic-in-btn-l.left {
+  margin-right: 12px;
+}
+
+.ic-in-btn-l.right {
+  margin-left: 12px;
+}
+
+.ic-in-btn-m {
+  width: 20px;
+  height: 20px;
+}
+
+.ic-in-btn-m.left {
+  margin-right: 8px;
+}
+
+.ic-in-btn-m.right {
+  margin-left: 8px;
+}
+
+.ic-in-btn-s {
+  width: 16px;
+  height: 16px;
+}
+
+.ic-in-btn-s.left {
+  margin-right: 4px;
+}
+
+.ic-in-btn-s.right {
+  margin-left: 4px;
+}
+
+.avatar-m.left {
+  margin: -6px 8px -6px -8px;
+}
+
+.avatar-s.left {
+  margin: -2px 4px -2px -4px;
+}
+
+/* Кнопки → Состояния */
+
+.btn-disabled {
+  cursor: default;
+  opacity: .5;
+}
+
+/* Чипсы */
+
+.chips-m {
+  padding: 6px 8px;
+  display: flex;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 100px;
+  cursor: default;
+}
+
+.chips-s {
+  padding: 2px 4px;
+  display: flex;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 100px;
+  cursor: default;
+}
