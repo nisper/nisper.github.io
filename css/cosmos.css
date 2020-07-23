@@ -223,3 +223,12 @@ body {
   border-radius: 100px;
   cursor: default;
 }
+
+.tags {
+  padding: 2px 4px;
+  display: flex;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 2px;
+  cursor: default;
+}
