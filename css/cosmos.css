@@ -10,22 +10,22 @@ body {
 
 /* Обертка для элементов внутри Live Preview */
 
-.zeroheight-wrapper {
+.zh-wrapper {
   padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: start;
 }
 
-.zeroheight-wrapper-line {
+.zh-wrapper-line {
   display: flex;
 }
 
-.zeroheight-wrapper-line > div {
+.zh-wrapper-line > div {
   margin-right: 16px;
 }
 
-.zeroheight-wrapper > div { /* Отступ у DIV-ов только у ближайших потомков .zeroheight-wrapper */
+.zh-wrapper > div { /* Отступ у DIV-ов только у ближайших потомков .zeroheight-wrapper */
   margin-bottom: 16px;
 }
 
