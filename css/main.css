@@ -82,3 +82,19 @@
   .btn-success-light.btn-disabled {
     background: rgba(105,184,73,0.1);
   }
+
+  /* Кнопки Danger */
+
+  .btn-danger-light {
+    color: #e93e3e;
+    background: rgba(233,62,62,0.1);
+  }
+  
+  .btn-danger-light:hover {
+    color: #e93e3e;
+    background: rgba(233,62,62,0.2);
+  }
+  
+  .btn-danger-light.btn-disabled {
+    background: rgba(233,62,62,0.1);
+  }
