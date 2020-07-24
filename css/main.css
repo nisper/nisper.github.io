@@ -141,7 +141,7 @@
     background: #505c98;
 }
 
-/* Кнопки Secondary Dark */
+/* Кнопки – Secondary Dark */
 
 .btn-secondary-dark {
     color: #fff;
@@ -154,4 +154,83 @@
 
 .btn-secondary-dark.btn-disabled {
     background: rgba(137, 137, 147, 0.3);
+}
+
+/* Кнопки – Text Dark */
+
+.btn-l-text-dark {
+    padding: 12px 8px;
+    background: transparent;
+    color: #dcdcdf;
+}
+
+.btn-m-text-dark {
+    padding: 8px 4px;
+    background: transparent;
+    color: #dcdcdf;
+}
+
+.btn-s-text-dark {
+    padding: 4px 2px;
+    background: transparent;
+    color: #dcdcdf;
+}
+
+.btn-l-text-dark:hover,
+.btn-m-text-dark:hover,
+.btn-s-text-dark:hover,
+.btn-text-ic-dark:hover {
+    background: rgba(137, 137, 147, 0.2);
+}
+
+.btn-m-text-dark.btn-disabled {
+    background: transparent;
+}
+
+/* Кнопки – Success Dark */
+
+.btn-success-dark {
+    color: #fff;
+    background: #69b849;
+}
+
+.btn-success-dark:hover {
+    color: #fff;
+    background: #46a33e;
+}
+
+.btn-success-dark.btn-disabled {
+    background: #69b849;
+}
+
+/* Кнопки – Danger Dark */
+
+.btn-danger-dark {
+    color: #fff;
+    background: #e93e3e;
+}
+
+.btn-danger-dark:hover {
+    color: #fff;
+    background: #d42424;
+}
+
+.btn-danger-dark.btn-disabled {
+    background: #e93e3e;
+}
+
+/* Кнопки – Warning Dark */
+
+.btn-warning-dark {
+    color: #fff;
+    background: #e9723e;
+}
+
+.btn-warning-dark:hover {
+    color: #fff;
+    background: #d45924;
+}
+
+.btn-warning-dark.btn-disabled {
+    background: #e9723e;
 }

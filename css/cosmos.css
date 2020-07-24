@@ -21,11 +21,12 @@ body {
   display: flex;
 }
 
-.zh-wrapper-line > div {
+.zh-wrapper-line>div {
   margin-right: 16px;
 }
 
-.zh-wrapper > div { /* Отступ у DIV-ов только у ближайших потомков .zeroheight-wrapper */
+.zh-wrapper>div {
+  /* Отступ у DIV-ов только у ближайших потомков .zeroheight-wrapper */
   margin-bottom: 16px;
 }
 
@@ -33,7 +34,7 @@ body {
   color: #fff;
 }
 
-/* Типографика */
+/* Типографика */ß
 
 .jumbo {
   font-weight: 900;
@@ -101,6 +102,8 @@ body {
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
+
+/* Отступы от Overline'ов */
 
 .overline.mb8 {
   margin-bottom: 8px;
@@ -239,4 +242,4 @@ body {
   line-height: 16px;
   border-radius: 2px;
   cursor: default;
-} 
+}
