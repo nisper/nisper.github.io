@@ -66,3 +66,19 @@
 .btn-m-text-light.btn-disabled {
     background: transparent;
 }
+
+/* Кнопки – Success */
+
+.btn-success-light {
+    color: #69b849;
+    background: rgba(105,184,73,0.1);
+  }
+  
+  .btn-success-light:hover {
+    color: #69b849;
+    background: rgba(105,184,73,0.2);
+  }
+  
+  .btn-success-light.btn-disabled {
+    background: rgba(105,184,73,0.1);
+  }
