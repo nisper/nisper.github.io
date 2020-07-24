@@ -6,7 +6,17 @@
     border-bottom: 1px solid #eeeff5;
 }
 
-/* Кнопки — Primary*/
+.zh-wrapper.dark {
+    background: #373745;
+}
+
+.zh-wrapper.dark .guide-section {
+    color: #898993;
+    border-bottom: 1px solid #898993;
+}
+
+/* Кнопки Light */
+/* Кнопки — Primary Light */
 
 .btn-primary-light {
     color: #fff;
@@ -21,7 +31,7 @@
     background: #2c3979;
 }
 
-/* Кнопки – Secondary */
+/* Кнопки – Secondary Light */
 
 .btn-secondary-light {
     background: #eeeff5;
@@ -36,7 +46,7 @@
     background: #eeeff5;
 }
 
-/* Кнопки Text */
+/* Кнопки – Text Light */
 
 .btn-l-text-light {
     padding: 12px 8px;
@@ -67,34 +77,81 @@
     background: transparent;
 }
 
-/* Кнопки – Success */
+/* Кнопки – Success Light */
 
 .btn-success-light {
     color: #69b849;
-    background: rgba(105,184,73,0.1);
-  }
-  
-  .btn-success-light:hover {
+    background: rgba(105, 184, 73, 0.1);
+}
+
+.btn-success-light:hover {
     color: #69b849;
-    background: rgba(105,184,73,0.2);
-  }
-  
-  .btn-success-light.btn-disabled {
-    background: rgba(105,184,73,0.1);
-  }
+    background: rgba(105, 184, 73, 0.2);
+}
 
-  /* Кнопки Danger */
+.btn-success-light.btn-disabled {
+    background: rgba(105, 184, 73, 0.1);
+}
 
-  .btn-danger-light {
+/* Кнопки – Danger Light */
+
+.btn-danger-light {
     color: #e93e3e;
-    background: rgba(233,62,62,0.1);
-  }
-  
-  .btn-danger-light:hover {
+    background: rgba(233, 62, 62, 0.1);
+}
+
+.btn-danger-light:hover {
     color: #e93e3e;
-    background: rgba(233,62,62,0.2);
-  }
-  
-  .btn-danger-light.btn-disabled {
-    background: rgba(233,62,62,0.1);
-  }
+    background: rgba(233, 62, 62, 0.2);
+}
+
+.btn-danger-light.btn-disabled {
+    background: rgba(233, 62, 62, 0.1);
+}
+
+/* Кнопки – Warning Light */
+
+.btn-warning-light {
+    color: #e9723e;
+    background: rgba(233, 114, 62, 0.1);
+}
+
+.btn-warning-light:hover {
+    color: #e9723e;
+    background: rgba(233, 114, 62, 0.2);
+}
+
+.btn-warning-light.btn-disabled {
+    background: rgba(233, 114, 62, 0.1);
+}
+
+/* Кнопки Dark */
+/* Кнопки – Primary Dark */
+
+.btn-primary-dark {
+    color: #fff;
+    background: #505c98;
+}
+
+.btn-primary-dark:hover {
+    background: rgba(80, 92, 152, 0.7);
+}
+
+.btn-primary-dark.btn-disabled {
+    background: #505c98;
+}
+
+/* Кнопки Secondary Dark */
+
+.btn-secondary-dark {
+    color: #fff;
+    background: rgba(137, 137, 147, 0.3);
+}
+
+.btn-secondary-dark:hover {
+    background: rgba(137, 137, 147, 0.5);
+}
+
+.btn-secondary-dark.btn-disabled {
+    background: rgba(137, 137, 147, 0.3);
+}

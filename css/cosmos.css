@@ -29,6 +29,10 @@ body {
   margin-bottom: 16px;
 }
 
+.zh-wrapper.dark .overline.mb8 {
+  color: #fff;
+}
+
 /* Типографика */
 
 .jumbo {
@@ -96,6 +100,10 @@ body {
   line-height: 16px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
+}
+
+.overline.mb8 {
+  margin-bottom: 8px;
 }
 
 /* Кнопки → Размеры кнопок */
