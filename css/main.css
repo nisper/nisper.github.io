@@ -254,12 +254,30 @@
     cursor: pointer;
 }
 
-.chips-m:hover .ic-cancel,
-.chips-s:hover .ic-cancel {
-    opacity: 0.5;
+
+.avatar-m {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
 }
 
-.chips-m .ic-cancel:hover,
-.chips-s .ic-cancel:hover {
-    opacity: 0.7;
+.avatar-s {
+    width: 20px;
+    height: 20px;
+    border-radius: 16px;
+}
+
+.ic-cancel {
+    margin-left: 4px;
+    fill: #2c3979;
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+.btn-link {
+    color: #505c98;
+}
+
+.btn-link:hover {
+    color: #2c3979;
 }

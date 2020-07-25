@@ -238,6 +238,16 @@ body {
   cursor: default;
 }
 
+.chips-m:hover .ic-cancel,
+.chips-s:hover .ic-cancel {
+  opacity: 0.5;
+}
+
+.chips-m .ic-cancel:hover,
+.chips-s .ic-cancel:hover {
+  opacity: 0.7;
+}
+
 .tags {
   padding: 2px 4px;
   display: flex;
