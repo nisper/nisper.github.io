@@ -144,7 +144,7 @@
 /* Кнопки – Secondary Dark */
 
 .btn-secondary-dark {
-  color: #fff;
+  color: #dcdcdf;
   background: rgba(137, 137, 147, 0.3);
 }
 
@@ -269,9 +269,6 @@
 .tags:hover .ic-cancel {
   opacity: 0.5;
 }
-
-
-
 
 .avatar-m {
   width: 32px;
