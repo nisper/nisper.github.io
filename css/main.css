@@ -1,283 +1,332 @@
 .guide-section {
-    padding: 12px 0;
-    margin-bottom: 24px;
-    width: 100%;
-    ;
-    border-bottom: 1px solid #eeeff5;
+  padding: 12px 0;
+  margin-bottom: 24px;
+  width: 100%;
+  ;
+  border-bottom: 1px solid #eeeff5;
 }
 
 .zh-wrapper.dark {
-    background: #373745;
+  background: #373745;
 }
 
 .zh-wrapper.dark .guide-section {
-    color: #898993;
-    border-bottom: 1px solid #898993;
+  color: #898993;
+  border-bottom: 1px solid #898993;
 }
 
 /* Кнопки Light */
 /* Кнопки — Primary Light */
 
 .btn-primary-light {
-    color: #fff;
-    background: #2c3979;
+  color: #fff;
+  background: #2c3979;
 }
 
 .btn-primary-light:hover {
-    background: #505c98;
+  background: #505c98;
 }
 
 .btn-primary-light.btn-disabled {
-    background: #2c3979;
+  background: #2c3979;
 }
 
 /* Кнопки – Secondary Light */
 
 .btn-secondary-light {
-    background: #eeeff5;
-    color: #2c3979;
+  background: #eeeff5;
+  color: #2c3979;
 }
 
 .btn-secondary-light:hover {
-    background: #f7f7fa;
+  background: #f7f7fa;
 }
 
 .btn-secondary-light.btn-disabled {
-    background: #eeeff5;
+  background: #eeeff5;
 }
 
 /* Кнопки – Text Light */
 
 .btn-l-text-light {
-    padding: 12px 8px;
-    background: transparent;
-    color: #2c3979;
+  padding: 12px 8px;
+  background: transparent;
+  color: #2c3979;
 }
 
 .btn-m-text-light {
-    padding: 8px 4px;
-    background: transparent;
-    color: #2c3979;
+  padding: 8px 4px;
+  background: transparent;
+  color: #2c3979;
 }
 
 .btn-s-text-light {
-    padding: 4px 2px;
-    background: transparent;
-    color: #2c3979;
+  padding: 4px 2px;
+  background: transparent;
+  color: #2c3979;
 }
 
 .btn-l-text-light:hover,
 .btn-m-text-light:hover,
 .btn-s-text-light:hover,
 .btn-text-ic-light:hover {
-    background: #f7f7fa;
+  background: #f7f7fa;
 }
 
 .btn-m-text-light.btn-disabled {
-    background: transparent;
+  background: transparent;
 }
 
 /* Кнопки – Success Light */
 
 .btn-success-light {
-    color: #69b849;
-    background: rgba(105, 184, 73, 0.1);
+  color: #69b849;
+  background: rgba(105, 184, 73, 0.1);
 }
 
 .btn-success-light:hover {
-    color: #69b849;
-    background: rgba(105, 184, 73, 0.2);
+  color: #69b849;
+  background: rgba(105, 184, 73, 0.2);
 }
 
 .btn-success-light.btn-disabled {
-    background: rgba(105, 184, 73, 0.1);
+  background: rgba(105, 184, 73, 0.1);
 }
 
 /* Кнопки – Danger Light */
 
 .btn-danger-light {
-    color: #e93e3e;
-    background: rgba(233, 62, 62, 0.1);
+  color: #e93e3e;
+  background: rgba(233, 62, 62, 0.1);
 }
 
 .btn-danger-light:hover {
-    color: #e93e3e;
-    background: rgba(233, 62, 62, 0.2);
+  color: #e93e3e;
+  background: rgba(233, 62, 62, 0.2);
 }
 
 .btn-danger-light.btn-disabled {
-    background: rgba(233, 62, 62, 0.1);
+  background: rgba(233, 62, 62, 0.1);
 }
 
 /* Кнопки – Warning Light */
 
 .btn-warning-light {
-    color: #e9723e;
-    background: rgba(233, 114, 62, 0.1);
+  color: #e9723e;
+  background: rgba(233, 114, 62, 0.1);
 }
 
 .btn-warning-light:hover {
-    color: #e9723e;
-    background: rgba(233, 114, 62, 0.2);
+  color: #e9723e;
+  background: rgba(233, 114, 62, 0.2);
 }
 
 .btn-warning-light.btn-disabled {
-    background: rgba(233, 114, 62, 0.1);
+  background: rgba(233, 114, 62, 0.1);
 }
 
 /* Кнопки Dark */
 /* Кнопки – Primary Dark */
 
 .btn-primary-dark {
-    color: #fff;
-    background: #505c98;
+  color: #fff;
+  background: #505c98;
 }
 
 .btn-primary-dark:hover {
-    background: rgba(80, 92, 152, 0.7);
+  background: rgba(80, 92, 152, 0.7);
 }
 
 .btn-primary-dark.btn-disabled {
-    background: #505c98;
+  background: #505c98;
 }
 
 /* Кнопки – Secondary Dark */
 
 .btn-secondary-dark {
-    color: #fff;
-    background: rgba(137, 137, 147, 0.3);
+  color: #fff;
+  background: rgba(137, 137, 147, 0.3);
 }
 
 .btn-secondary-dark:hover {
-    background: rgba(137, 137, 147, 0.5);
+  background: rgba(137, 137, 147, 0.5);
 }
 
 .btn-secondary-dark.btn-disabled {
-    background: rgba(137, 137, 147, 0.3);
+  background: rgba(137, 137, 147, 0.3);
 }
 
 /* Кнопки – Text Dark */
 
 .btn-l-text-dark {
-    padding: 12px 8px;
-    background: transparent;
-    color: #dcdcdf;
+  padding: 12px 8px;
+  background: transparent;
+  color: #dcdcdf;
 }
 
 .btn-m-text-dark {
-    padding: 8px 4px;
-    background: transparent;
-    color: #dcdcdf;
+  padding: 8px 4px;
+  background: transparent;
+  color: #dcdcdf;
 }
 
 .btn-s-text-dark {
-    padding: 4px 2px;
-    background: transparent;
-    color: #dcdcdf;
+  padding: 4px 2px;
+  background: transparent;
+  color: #dcdcdf;
 }
 
 .btn-l-text-dark:hover,
 .btn-m-text-dark:hover,
 .btn-s-text-dark:hover,
 .btn-text-ic-dark:hover {
-    background: rgba(137, 137, 147, 0.2);
+  background: rgba(137, 137, 147, 0.2);
 }
 
 .btn-m-text-dark.btn-disabled {
-    background: transparent;
+  background: transparent;
 }
 
 /* Кнопки – Success Dark */
 
 .btn-success-dark {
-    color: #fff;
-    background: #69b849;
+  color: #fff;
+  background: #69b849;
 }
 
 .btn-success-dark:hover {
-    color: #fff;
-    background: #46a33e;
+  color: #fff;
+  background: #46a33e;
 }
 
 .btn-success-dark.btn-disabled {
-    background: #69b849;
+  background: #69b849;
 }
 
 /* Кнопки – Danger Dark */
 
 .btn-danger-dark {
-    color: #fff;
-    background: #e93e3e;
+  color: #fff;
+  background: #e93e3e;
 }
 
 .btn-danger-dark:hover {
-    color: #fff;
-    background: #d42424;
+  color: #fff;
+  background: #d42424;
 }
 
 .btn-danger-dark.btn-disabled {
-    background: #e93e3e;
+  background: #e93e3e;
 }
 
 /* Кнопки – Warning Dark */
 
 .btn-warning-dark {
-    color: #fff;
-    background: #e9723e;
+  color: #fff;
+  background: #e9723e;
 }
 
 .btn-warning-dark:hover {
-    color: #fff;
-    background: #d45924;
+  color: #fff;
+  background: #d45924;
 }
 
 .btn-warning-dark.btn-disabled {
-    background: #e9723e;
+  background: #e9723e;
 }
 
 /* Chips */
 
 .chips-light-m {
-    color: #373745;
-    background: #f7f7fa;
+  color: #373745;
+  background: #f7f7fa;
 }
 
 .chips-light-s {
-    color: #373745;
-    background: #eeeff5;
+  color: #373745;
+  background: #eeeff5;
 }
 
 .ic-cancel {
-    margin-left: 4px;
-    fill: #2c3979;
-    opacity: 0.2;
-    cursor: pointer;
+  margin-left: 4px;
+  fill: #2c3979;
+  opacity: 0.2;
+  cursor: pointer;
 }
+
+.tags-light {
+  color: #373745;
+  border: 1px solid #cacfe7;
+}
+
+.ic-cancel {
+  margin-left: 4px;
+  fill: #2c3979;
+  opacity: 0.2;
+  cursor: pointer;
+}
+
+.tags:hover .ic-cancel {
+  opacity: 0.5;
+}
+
+
 
 
 .avatar-m {
-    width: 32px;
-    height: 32px;
-    border-radius: 16px;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
 }
 
 .avatar-s {
-    width: 20px;
-    height: 20px;
-    border-radius: 16px;
+  width: 20px;
+  height: 20px;
+  border-radius: 16px;
 }
 
 .ic-cancel {
-    margin-left: 4px;
-    fill: #2c3979;
-    opacity: 0.2;
-    cursor: pointer;
+  margin-left: 4px;
+  fill: #2c3979;
+  opacity: 0.2;
+  cursor: pointer;
 }
 
 .btn-link {
-    color: #505c98;
+  color: #505c98;
 }
 
 .btn-link:hover {
-    color: #2c3979;
+  color: #2c3979;
+}
+
+.status-light-success {
+  color: #69b849;
+  background: rgba(105, 184, 73, 0.1);
+}
+
+.status-light-danger {
+  color: #e93e3e;
+  background: rgba(233, 62, 62, 0.1);
+}
+
+.status-light-progress {
+  color: #505c98;
+  background: #f7f7fa;
+}
+
+.counter-active {
+  display: flex;
+  justify-content: center;
+  min-width: 12px;
+  color: #fff;
+  background: #505c98;
+}
+
+.counter-normal {
+  display: flex;
+  justify-content: center;
+  min-width: 12px;
+  color: #373745;
+  background: #eeeff5;
 }
