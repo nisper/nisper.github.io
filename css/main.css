@@ -234,3 +234,32 @@
 .btn-warning-dark.btn-disabled {
     background: #e9723e;
 }
+
+/* Chips */
+
+.chips-light-m {
+    color: #373745;
+    background: #f7f7fa;
+}
+
+.chips-light-s {
+    color: #373745;
+    background: #eeeff5;
+}
+
+.ic-cancel {
+    margin-left: 4px;
+    fill: #2c3979;
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+.chips-m:hover .ic-cancel,
+.chips-s:hover .ic-cancel {
+    opacity: 0.5;
+}
+
+.chips-m .ic-cancel:hover,
+.chips-s .ic-cancel:hover {
+    opacity: 0.7;
+}
