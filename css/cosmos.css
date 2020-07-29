@@ -220,6 +220,8 @@ body {
 
 /* Чипсы */
 
+/* Размер M */
+
 .chips-m {
   padding: 6px 8px;
   display: flex;
@@ -229,6 +231,8 @@ body {
   cursor: default;
 }
 
+/* Размер S */
+
 .chips-s {
   padding: 2px 4px;
   display: flex;
@@ -237,6 +241,8 @@ body {
   border-radius: 100px;
   cursor: default;
 }
+
+/* Поведение крестика */
 
 .chips-m:hover .ic-cancel,
 .chips-s:hover .ic-cancel {
