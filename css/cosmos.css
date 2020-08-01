@@ -276,6 +276,7 @@ body {
   font-weight: 500;
   line-height: 20px;
   border: 1px solid #cacfe7;
+  border-right: none;
   cursor: pointer;
 }
 
@@ -285,4 +286,5 @@ body {
 
 .switcher:last-child {
   border-radius: 0 4px 4px 0;
+  border-right: 1px solid #cacfe7;
 }
