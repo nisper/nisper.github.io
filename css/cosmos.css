@@ -262,3 +262,27 @@ body {
   border-radius: 2px;
   cursor: default;
 }
+
+/* Свичи */
+
+.switch-group {
+  display: flex;
+}
+
+.switcher {
+  padding: 8px;
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  border: 1px solid #cacfe7;
+  cursor: pointer;
+}
+
+.switcher:first-child {
+  border-radius: 4px 0 0 4px;
+}
+
+.switcher:last-child {
+  border-radius: 0 4px 4px 0;
+}
