@@ -77,6 +77,20 @@
   background: transparent;
 }
 
+/* Кнопки – Icon Light */
+
+.btn-icon {
+  padding: 0;
+}
+
+.btn-icon svg {
+  fill: #7681B5;
+}
+
+.btn-icon:hover svg {
+  fill: #505C98;
+}
+
 /* Кнопки – Success Light */
 
 .btn-success-light {
@@ -185,6 +199,16 @@
 
 .btn-m-text-dark.btn-disabled {
   background: transparent;
+}
+
+/* Кнопки – Icon dark */
+
+.btn-icon.btn-dark svg {
+  fill: #898993; /* Gray 400 */
+}
+
+.btn-icon.btn-dark:hover svg {
+  fill: #DCDCDF; /* Gray 100 */
 }
 
 /* Кнопки – Success Dark */
