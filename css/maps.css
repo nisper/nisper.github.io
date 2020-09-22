@@ -1,0 +1,42 @@
+.map-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: #F3FDDF;
+}
+
+.slice {
+  fill: #CDF59D;
+  transition: all .15s;
+}
+
+.slice:hover {
+  fill: #BCE1A8;
+  cursor: pointer;
+  transition: all .15s;
+}
+
+.locked {
+  fill: #FDF2B5;
+}
+
+.slice.locked:hover {
+  fill: #E3DFBB;
+  transition: all .15s;
+}
+
+.sold {
+  fill: #F3FDDF;
+}
+
+.slice.sold:hover {
+  fill: #F3FDDF;
+  cursor: default;
+}
+
+.map-layer {
+  position: absolute;
+}
