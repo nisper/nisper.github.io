@@ -10,6 +10,8 @@
 
 .slice {
   fill: #CDF59D;
+  stroke:white;
+  stroke-miterlimit: 10;
   transition: all .15s;
 }
 
@@ -39,4 +41,12 @@
 
 .map-layer {
   position: absolute;
+}
+
+.legend {
+  padding: 16px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #fff;
 }
