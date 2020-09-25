@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 21"><defs><style>.cls-1{fill:#f3fddf;stroke:#fff;stroke-miterlimit:10;}.cls-2{fill:#949988;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Map"><rect class="cls-1" x="0.5" y="0.5" width="40" height="20"/><path class="cls-2" d="M18.44,14.42h-.9v-6l-1.83.67V8.25l2.59-1h.14Z"/><path class="cls-2" d="M24.9,12h1v.74h-1v1.65H24V12.77H20.76v-.53l3.18-4.93h1Zm-3.12,0H24V8.55l-.11.19Z"/></g></g></svg>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="1" y="1" width="30" height="30" rx="4" fill="#F3FDDF"/>
+<path d="M12.73 19.17H11.83V13.17L10 13.84V13L12.59 12H12.73V19.17Z" fill="#949988"/>
+<path d="M19.19 16.7501H20.19V17.4901H19.19V19.1401H18.29V17.5201H15.05V16.9901L18.23 12.0601H19.23L19.19 16.7501ZM16.07 16.7501H18.29V13.3001L18.18 13.4901L16.07 16.7501Z" fill="#949988"/>
+<rect x="1" y="1" width="30" height="30" rx="4" stroke="white" stroke-miterlimit="10"/>
+</svg>
