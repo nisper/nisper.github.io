@@ -44,9 +44,18 @@
 }
 
 .legend {
-  padding: 16px;
+  padding: 8px 16px;
   position: absolute;
   bottom: 0;
   right: 0;
   background: #fff;
+}
+
+.legend-row {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+.legend-row img {
+  margin-right: 16px;
 }
