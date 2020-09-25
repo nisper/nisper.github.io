@@ -59,3 +59,9 @@
 .legend-row img {
   margin-right: 16px;
 }
+
+.compass {
+  position: absolute;
+  top: 24px;
+  left: 24;
+}
