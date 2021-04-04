@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #373745;
+}
+
+header {
+  padding: 20px;
+  color: f7f7f7;
+  background: #373745;
+}
+
 .guide-section {
   padding: 12px 0;
   margin-bottom: 24px;
