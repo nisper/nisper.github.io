@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1c1c1c; 
+}
+
+header {
+  padding: 20px;
+  display: flex;
+  color: #fff;
+  background: #1c1c1c;
+}
+
+header a {
+  margin-right: 16px;
+  opacity: .5;
+}
+
+header a:hover {
+  opacity: 1;
+}
+
+/* Текстовые поля */
+
+.textfield {
+  margin: 0;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 1px solid #f1f1f1;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.textfield:hover {
+  background: #f6f6f6;
+}
+
+.textfield:focus {
+  
+}
