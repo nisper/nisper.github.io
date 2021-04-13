@@ -231,11 +231,13 @@ header a:hover {
 /* Кнопки – Icon dark */
 
 .btn-icon.btn-dark svg {
-  fill: #898993; /* Gray 400 */
+  fill: #898993;
+  /* Gray 400 */
 }
 
 .btn-icon.btn-dark:hover svg {
-  fill: #DCDCDF; /* Gray 100 */
+  fill: #DCDCDF;
+  /* Gray 100 */
 }
 
 /* Кнопки – Success Dark */
